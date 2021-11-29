@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plantilla TFG/TFM
+% Escuela Politécnica Superior de la Universidad de Alicante
+% Realizado por: Jose Manuel Requena Plens
+% Contacto: info@jmrplens.com / Telegram:@jmrplens
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Conclusiones}
+\label{conclusiones}
+
+En este trabajo se han aplicado diferentes conceptos que se van a desglosar para detallar las conclusiones que se pueden extraer de cada uno de ellos.
+
+
+\section{Validación de modelos}
+
+Es la norma encontrar en la literatura que los modelos acústicos de recintos cerrados se validan con las medidas experimentales y concretamente comparando los valores de tiempo de reverberación, si los valores no son similares se ajustan los parámetros de absorción del modelo para igualarlos y finalmente validar el modelo.
+
+
+Este método funciona muy bien y en la mayoría de los casos produce un modelo válido pero no tiene en cuenta la distribución de los parámetros de absorción que puede dar como resultado una mayor contribución de un campo acústico (directo, temprano o tardío) sobre otro en zonas donde experimentalmente no se produce, es por ello que aprovechando el análisis de los campos acústicos de este estudio se ha aplicado un paso más para la validación del modelo acústico de un recinto cerrado.
+
+En concreto se propone seguir los siguientes pasos para realizar la validación de un modelo acústico de un recinto cerrado:
+
+\begin{description}
+  \item[Medidas \textit{in situ}:]~
+  
+  Los pasos a seguir para obtener suficiente información del recinto real son:
+  \begin{enumerate}
+  \item Diseñar un mallado de puntos de recepción que proporcione un volumen de datos aceptable entre la posición de la fuente y la posición del receptor más alejado. Esto es necesario para obtener una curva de nivel frente a la distancia lo más ajustada posible a la realidad.
+  \item Realizar las mediciones en al menos 2 posiciones diferentes de emisor (esquina, centro, posición de orador, etc)
+  \item Una vez realizadas las medidas obtener el tiempo de reverberación (por bandas de octava) y realizar un análisis temporal en fracciones de 1 ms (ecograma, histograma o similar) con niveles sin ponderar, después guardar la información de cada receptor (reverberación, ecograma, posición y distancia a la fuente).
+\end{enumerate}
+
+\item[Simulación:]~
+
+Esto es válido para cualquier software de simulación acústica de recintos.
+
+\begin{enumerate}
+  \item Diseñar el modelo para ser lo más fiel posible en los planos límite del recinto y ubicando los puntos de recepción en las mismas posiciones que la medida \textit{in situ}.
+  \item Si el recinto medido experimentalmente incluía múltiple mobiliario (se recomienda retirar todo lo prescindible para no generar excesivos planos en el modelo) es posible sustituirlo en el modelo por un plano o una caja que abarque la superficie del mobiliario con el mismo valor de absorción y un valor de difusión (\textit{scattering}) equivalente al conjunto del mobiliario.
+  \item Realizar un primer cálculo asignando a los materiales los valores de absorción presentes en la literatura.
+  \item Comparar el tiempo de reverberación simulado con el medido experimentalmente (ambos en bandas de octava), si no son similares reajustar, con coherencia, los valores de absorción y volver a calcular. Repetir este paso hasta que los tiempos de reverberaciones sean similares.
+  \item Una vez igualados los tiempos de reverberación obtener una historia temporal de cada receptor a través del trazado de rayos o la respuesta al impulso, ya sea en fracciones de 1 ms o con tiempos de llegada de cada rayo.
+\end{enumerate}
+
+\item[Validación:]~
+
+Una vez realizados los pasos anteriores, incluyendo una primera validación mediante los tiempos de reverberación, para validar finalmente el modelo se deben seguir los siguientes pasos:
+
+\begin{enumerate}
+  \item Tanto en las mediciones \textit{in situ} como en las simulaciones, separar en dos rangos temporales las historias temporales, por ejemplo como el que se utiliza en este estudio, integrar una parte de 0 a 50 ms e integrar el resto (de 50 ms a infinito).
+  \item Después de realizar esta integración se tendrán dos niveles para cada receptor (campo útil y campo perjudicial), estos datos se deben representar frente a la distancia que cada receptor tiene respecto a la fuente. 
+  \item Una vez representados todos los puntos se deben aproximar a una curva cada uno de los rangos temporales, en concreto para el rango temporal de 0 a 50 ms (campo útil) la curva debe ser una potencial con la forma $y=ax^b$ donde $x$ es la distancia y para el rango temporal de 50 ms a infinito la curva debe ser polinómica de primer grado con la forma $y=mx+n$. Estas curvas ajustadas a los puntos tendrán un valor de ajuste y un margen de error que se debe tener en cuenta para el siguiente paso. 
+  \item Una vez obtenidas las curvas tanto con las medidas experimentales como la simulación se deben comparar y analizar la diferencia entre ellas, incluyendo el margen de error de ambas. Este margen de error es necesario porque las curvas experimentales y las simuladas difícilmente pueden ser iguales y habrá que tener en cuenta los posibles valores (debido al margen de error) que pueden tomar las curvas para decidir si las curvas simuladas se ajustan a los valores de las curvas de las medidas experimentales.
+  \item Por último, si estas curvas no llegan a ser equivalentes se debe tener en cuenta el valor habitual en la literatura de un nivel de confianza del 95\%, por el que si en los diferentes puntos de las curvas simuladas respecto a las experimentales la diferencia (incluyendo los márgenes de error) no supera el 5\% se siguen asumiendo equivalentes. Si quedan fuera del nivel de confianza hay que reajustar valores de absorción de los materiales para mantener los tiempos de reverberación pero distribuir de otro modo los campos acústicos.
+\end{enumerate}
+
+
+\end{description}
+
+
+\section{Teoría revisada corregida}
+
+La teoría revisada corregida definida en el apartado \ref{teoriarevisadacorregida} se ha desarrollado bansándose en lo estudiado por \cite{Barron1988} pero manteniendo en las ecuaciones la posibilidad de elegir cualquier tiempo de integración, permitiendo la aplicación de esta teoría en otros casos donde se estudien campos acústicos diferentes a los de este trabajo.
+
+
+La corrección propuesta en este trabajo para la teoría revisada definida por \citeauthor{Barron1988} difiere en algunos aspectos a la corrección propuesta en \cite{Sato2008}. \citeauthor{Sato2008} proponen unas constantes para los términos exponenciales de las ecuaciones, y ninguna modificación de los niveles globales, mi propuesta incluye coeficientes variables para los términos exponenciales y para los niveles globales, incluído el campo directo. 
+
+Mediante herramientas como Matlab se han probado diferentes ubicaciones de los coeficientes de corrección para obtener el mejor ajuste posible a las medidas reales. Debido a este proceso se encontró que el campo temprano tenía un decaimiento frente a la distancia mayor a lo definido por los autores citados anteriormente (aunque en \cite{Sato2008} ya se adelantaba esta idea), analizando diferentes soluciones se ha determinado que el campo temprano decrece con la inversa de la distancia y así se ha indicado en el apartado \ref{teoriarevisadacorregida} y aplicado a las ecuaciones que quedan del siguiente modo:
+
+
+\begin{flalign}
+	I_L(r)&= \frac{4W}{A} e^{-\left(\frac{13,82\left(\frac{r}{c}+t_0\right)}{T}\epsilon_L\right)}C_L\\
+	I_E (r)&= \frac{4W}{Ar} \left(e^{-\left(\frac{13,82\frac{r}{c}}{T}\epsilon_E\right)}C_E - e^{-\left(\frac{13,82\left(\frac{r}{c}+t_0\right)}{T}\epsilon_L\right)}C_L\right)\\
+	I_D (r)&= \frac{WQ}{4\pi r^2}C_D\\
+	I_{\text{útil}} &= I_D + I_E\\
+	I_{\text{perjudicial}} &= I_L
+\end{flalign}
+\begin{condiciones}[Donde:]
+	I_D,I_E,I_L & \rightarrow & Son las intensidades de los campos directo (0-1ms), temprano (1ms-$t$) y tardío ($t$-$\infty$) respectivamente.\\
+	\epsilon_L,C_L & \rightarrow & Son los coeficientes del campo perjudicial (Late).\\
+	C_D & \rightarrow & Es el coeficiente del campo directo (Direct).\\
+	\epsilon_E,C_E & \rightarrow & Son los coeficientes del campo de primeras reflexiones (Early).
+\end{condiciones}
+
+El ajuste de estas ecuaciones a las curvas obtenidas en las medidas experimentales ofrecen un valor de $R^2$ en todos los casos mayor a 0.9 y en la mayoría de valor 1, por lo que su validez está confirmada quedando pendiente encontrar una relación entre los coeficientes y los parámetros del recinto. Una vez encontrada esta relación se obtendrán unos cálculos teóricos de los campos acústicos muy fieles a lo que se obtendría en una medición \textit{in situ}.
+
+
+Para representar estos campos en niveles de presión acústica se debe añadir la impedancia acústica del aire y la presión de referencia:
+
+\begin{flalign}
+	L_{p,\text{D}} (r)&= 10\log_{10} \left[\frac{Z}{p_0^2} \left(  \frac{WQ}{4\pi r^2}C_D  \right)\right]\\
+	L_{p,\text{E}} (r)&= 10\log_{10} \left[\frac{Z}{p_0^2} \left(  \frac{4W}{Ar} \left(e^{-\left(\frac{13,82\frac{r}{c}}{T}\epsilon_E\right)}C_E - e^{-\left(\frac{13,82\left(\frac{r}{c}+t_0\right)}{T}\epsilon_L\right)}C_L\right)  \right)\right]\\
+	L_{p,\text{L}} (r)&= 10\log_{10} \left[\frac{Z}{p_0^2} \left(  \frac{4W}{A} e^{-\left(\frac{13,82\left(\frac{r}{c}+t_0\right)}{T}\epsilon_L\right)}C_L  \right)\right]
+\end{flalign}
+
+
+\section{Relación de coeficientes con las características del recinto}
+
+Éste es el objetivo final del trabajo, obtener unas nuevas ecuaciones para el cálculo de los campos acústicos, sin coeficientes, tan solo parámetros del recinto y la fuente pero, como se ha podido ver en el apartado \ref{relacioncoef} no es sencillo encontrar una relación entre los parámetros del recinto y los coeficientes de corrección, se han tenido que utilizar programas de \textit{machine learning} para intentar encontrar esas relaciones y aun así no se han encontrado unas relaciones coherentes.
+
+Hay que tener en cuenta que se parte de un supuesto: \textit{todos los modelos escalados seguirán siendo válidos como el modelo sin escalar}, y esto probablemente no es cierto provocando que la relación parámetros/coeficientes no tenga coherencia entre un factor de escala y otro.
+
+La teoría revisada corregida planteada en este trabajo se ha demostrado que es consistente y se ajusta correctamente a las curvas de los campos acústicos, por ello es preciso ampliar los datos realizando medidas \textit{in situ} en diferentes recintos con distintos parámetros y aplicar sobre esas medidas experimentales la teoría revisada corregida, para obtener los coeficientes eliminando la dependencia de la simulación acústica y así finalmente determinar si existe una relación entre los coeficientes y el recinto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plantilla TFG/TFM
+% Escuela Politécnica Superior de la Universidad de Alicante
+% Realizado por: Jose Manuel Requena Plens
+% Contacto: info@jmrplens.com / Telegram:@jmrplens
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\OptimizaTikZ{1}
+\input{include/configuracioninicial}
+
+\setlength{\arrayrulewidth}{0.5mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+
+
+\newcommand{\titulo}{Golden Sacra}
+\newcommand{\subtitulo}{Videojuego para Gameboy en ensamblador gbZ80}
+\newcommand{\miNombre}{Ángel Jesús Terol Martínez}
+\newcommand{\miEmail}{jtm37@alu.ua.es}
+\newcommand{\miTutor}{Francisco José Gallego Durán}
+\newcommand{\departamentoTutor}{Departamento de la Ciencia de la Computación e Inteligencia Artificial}
+\newcommand{\miFacultad}{Escuela Politécnica Superior}
+\newcommand{\miFacultadCorto}{EPS UA}
+\newcommand{\miUniversidad}{\protect{Universidad de Alicante}}
+\newcommand{\miUbicacion}{Alicante}
+																		
+\def\IDtitulo{5}
+
+\input{include/configuraciontitulacion} 
+
+\hypersetup{
+pdfauthor = {\miNombre~(\miEmail)},
+pdftitle = {\titulo},
+}
+
+\usepackage{verbatim}
+
+\begin{document}
+
+\input{include/portada/portada_color} % Portada Color
+\input{include/portada/portada_bn} % Portada B/N
+
+\input{capitulos/preliminaresconagradecimientos}
+
+\tableofcontents	% Índice
+\listoffigures		% Índice de figuras
+\listoftables		% Índice de tablas
+\lstlistoflistings  % Índice de códigos
+
+\mainmatter
+
+\input{capitulos/objetivos}
+\input{capitulos/gdd}
+\input{capitulos/history}
+\input{capitulos/manual}
+\input{capitulos/desarrollo}
+\input{capitulos/anexo}
+
+\nocite{*}
+\bibliography{bibliografia/bibliografia}
+\bibliographystyle{apacite}
+
+
+\end{document}

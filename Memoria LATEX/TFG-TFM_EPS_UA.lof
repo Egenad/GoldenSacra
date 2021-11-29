@@ -1,0 +1,81 @@
+\selectlanguage *{spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Tabla Trello - Iteración 0\relax }}{8}{figure.caption.15}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Mockup - Avance de Juego\relax }}{10}{figure.caption.16}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Mockup - Feedback de Hambre\relax }}{10}{figure.caption.17}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diseño de la Protagonista\relax }}{11}{figure.caption.18}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diseño los Sprites de la Protagonista\relax }}{12}{figure.caption.19}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Enemigos Base\relax }}{12}{figure.caption.20}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Mockup - Diseño de Enemigo Jefe\relax }}{13}{figure.caption.21}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Mapa de Mundo\relax }}{14}{figure.caption.22}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Mazmorras\relax }}{15}{figure.caption.23}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Mockup - Pantalla de Título\relax }}{16}{figure.caption.24}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Mockup - Diseño de Mapa de Mundo\relax }}{16}{figure.caption.25}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Mockup - Diseño de Vivienda\relax }}{17}{figure.caption.26}% 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Mockup - Diseño de Menú e Inventario\relax }}{17}{figure.caption.27}% 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Diagrama de Flujo\relax }}{18}{figure.caption.28}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Game Boy\relax }}{19}{figure.caption.29}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Pokemon Azul/Rojo\relax }}{21}{figure.caption.31}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Pantallas de Pokémon Rojo/Azul\relax }}{22}{figure.caption.32}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Dibujado de Ventanas en Pokémon Rojo/Azul\relax }}{23}{figure.caption.33}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Ventanas Emergentes en Pokémon Rojo/Azul\relax }}{23}{figure.caption.34}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Pokemon Mundo Misterioso: Equipo de Rescate Rojo\relax }}{24}{figure.caption.35}% 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Captura de Pantalla In-Game de Pokémon Mundo Misterioso\relax }}{25}{figure.caption.36}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces The Legend Of Zelda: Oracle Of Ages\relax }}{25}{figure.caption.37}% 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Pasado y Presente en Oracle Of Ages\relax }}{26}{figure.caption.38}% 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Capturas de Pantalla In-Game del Oracle Of Ages\relax }}{26}{figure.caption.39}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces ROM básica ejecutada en emulador\relax }}{30}{figure.caption.40}% 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Game Boy Tile Designer\relax }}{32}{figure.caption.41}% 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Game Boy Map Builder\relax }}{32}{figure.caption.42}% 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Emulador BGB\relax }}{33}{figure.caption.43}% 
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Emulador NO\$GMB\relax }}{33}{figure.caption.44}% 
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Game Boy Flash Cartridge\relax }}{34}{figure.caption.45}% 
+\contentsline {figure}{\numberline {7.7}{\ignorespaces GBSound Sample Generator\relax }}{34}{figure.caption.46}% 
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Interfaz Sublime Text 3\relax }}{35}{figure.caption.47}% 
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Capas de la Game Boy\relax }}{36}{figure.caption.48}% 
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Descripción Gráfica de la OAM\relax }}{37}{figure.caption.49}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Hello World\relax }}{39}{figure.caption.50}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Sprite Animado en NO\$GMB\relax }}{41}{figure.caption.51}% 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Colisiones Pixel a Pixel\relax }}{44}{figure.caption.52}% 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Tamaño de Bloques en el Juego\relax }}{45}{figure.caption.53}% 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Primer Diseño de Enemigo\relax }}{47}{figure.caption.54}% 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Ataque del Enemigo\relax }}{48}{figure.caption.55}% 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Pokémon Rojo/Azul en GBC y GB\relax }}{49}{figure.caption.56}% 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Primera Iteración del HUD\relax }}{55}{figure.caption.57}% 
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Diagrama ECS\relax }}{58}{figure.caption.58}% 
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Barra de Vida\relax }}{62}{figure.caption.59}% 
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Sprites Enemigo\relax }}{64}{figure.caption.60}% 
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Casos Especiales en Colisiones\relax }}{65}{figure.caption.61}% 
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Mapas Principales\relax }}{67}{figure.caption.62}% 
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Muestra Gráfica de Progresión de Juego\relax }}{71}{figure.caption.63}% 
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Problema con la Paleta de Color en GB\relax }}{72}{figure.caption.64}% 
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Transición en Game Boy Original/Pocket\relax }}{73}{figure.caption.65}% 
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Estructura de Color en GBC\relax }}{74}{figure.caption.66}% 
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Problemas Dibujado de Ventanas Emergentes\relax }}{77}{figure.caption.67}% 
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Dibujado de Textos\relax }}{79}{figure.caption.68}% 
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Actualización 0.4.0 RGBDS - Código Obsoleto\relax }}{80}{figure.caption.69}% 
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Inventario\relax }}{82}{figure.caption.70}% 
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Falta de Memoria ROM\relax }}{84}{figure.caption.71}% 
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Cargado Erróneo de Tileset\relax }}{84}{figure.caption.72}% 
+\contentsline {figure}{\numberline {8.24}{\ignorespaces Pantalla Principal de Juego Definitiva\relax }}{85}{figure.caption.73}% 
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Diseño de Nuevos Enemigos\relax }}{85}{figure.caption.74}% 
+\contentsline {figure}{\numberline {8.26}{\ignorespaces Diseño de Niveles\relax }}{86}{figure.caption.75}% 
+\contentsline {figure}{\numberline {8.27}{\ignorespaces Marc Davis - Compositor Musical en Fiverr\relax }}{90}{figure.caption.76}% 
+\contentsline {figure}{\numberline {8.28}{\ignorespaces Problema Visual Ventanas Emergentes\relax }}{91}{figure.caption.77}% 
+\contentsline {figure}{\numberline {8.29}{\ignorespaces Arreglo Visual Ventanas Emergentes\relax }}{93}{figure.caption.78}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Visualización del VRAM\relax }}{100}{figure.caption.81}% 
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Distribución del PAD\relax }}{102}{figure.caption.83}% 
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Modos de dibujado de la GPU\relax }}{104}{figure.caption.85}% 
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Representación Gráfica de los Registros de Especificación y Escritura en Modo CGB\relax }}{106}{figure.caption.86}% 
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Ejemplo Gráfico de Ciclo Útil de una Onda\relax }}{107}{figure.caption.87}% 
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Ejemplo Gráfico de Envolvente de Amplitud\relax }}{108}{figure.caption.88}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }

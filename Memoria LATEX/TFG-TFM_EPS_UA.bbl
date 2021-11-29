@@ -1,0 +1,463 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{Anthony J. Bentley}%
+}{%
+{Anthony J. Bentley}%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+rgbds}
+\APACinsertmetastar {%
+rgbds}%
+\begin{APACrefauthors}%
+{Anthony J. Bentley}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+\APACrefbtitle {{RGBDS Documentation}.} {{RGBDS Documentation}.}
+\newblock
+\APAChowpublished {\url{https://rednex.github.io/rgbds/}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Computing History}%
+}{%
+{Computing History}%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+ch}
+\APACinsertmetastar {%
+ch}%
+\begin{APACrefauthors}%
+{Computing History}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\APACrefbtitle {{Nintendo Game Boy}.} {{Nintendo Game Boy}.}
+\newblock
+\APAChowpublished
+  {\url{http://www.computinghistory.org.uk/det/4033/Nintendo-Game-Boy/}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{David DeGraw}%
+}{%
+{David DeGraw}%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+catskull}
+\APACinsertmetastar {%
+catskull}%
+\begin{APACrefauthors}%
+{David DeGraw}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {{Catskull Games}.} {{Catskull Games}.}
+\newblock
+\APAChowpublished {\url{https://catskullgames.com/}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{David Pello González}%
+}{%
+{David Pello González}%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+ladecadence}
+\APACinsertmetastar {%
+ladecadence}%
+\begin{APACrefauthors}%
+{David Pello González}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {{LaDecadence}.} {{LaDecadence}.}
+\newblock
+\APAChowpublished
+  {\url{http://wiki.ladecadence.net/doku.php?id=tutorial_de_ensamblador}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Doctor Ludos}%
+}{%
+{Doctor Ludos}%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+xataka}
+\APACinsertmetastar {%
+xataka}%
+\begin{APACrefauthors}%
+{Doctor Ludos}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {{Cómo hacer un juego para la Game Boy original en pleno 2018:
+  'Sheep It Up!'}.} {{Cómo hacer un juego para la Game Boy original en pleno
+  2018: 'Sheep It Up!'}.}
+\newblock
+\APAChowpublished
+  {\url{https://www.xataka.com/videojuegos/como-hacer-un-juego-para-la-game-boy-en-2018-sheep-it-up}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Execin%
+}{%
+Execin%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+dma}
+\APACinsertmetastar {%
+dma}%
+\begin{APACrefauthors}%
+Execin.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {{DMA Transfers on Game Boy}.} {{DMA Transfers on Game Boy}.}
+\newblock
+\APAChowpublished {\url{https://exez.in/gameboy-dma}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Felipe Alfonso (bitnenfer)}%
+}{%
+{Felipe Alfonso (bitnenfer)}%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+flappy}
+\APACinsertmetastar {%
+flappy}%
+\begin{APACrefauthors}%
+{Felipe Alfonso (bitnenfer)}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {{FlappyBoy}.} {{FlappyBoy}.}
+\newblock
+\APAChowpublished {\url{https://github.com/bitnenfer/flappy-boy-asm}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Luis Colomer Blasco}%
+}{%
+{Luis Colomer Blasco}%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+adsr}
+\APACinsertmetastar {%
+adsr}%
+\begin{APACrefauthors}%
+{Luis Colomer Blasco}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {{Acústica Musical}.} {{Acústica Musical}.}
+\newblock
+\APAChowpublished
+  {\url{http://cursodeacusticamusical.blogspot.com/2015/12/capitulo-9-envolventes-de-amplitud-y-de.html}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marat~Fayzullin%
+\ \BBA {} Korth%
+}{%
+Marat~Fayzullin%
+\ \BBA {} Korth%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+pandocs}
+\APACinsertmetastar {%
+pandocs}%
+\begin{APACrefauthors}%
+Marat~Fayzullin, P\BPBI R., Pascal~Felber%
+\BCBT {}\ \BBA {} Korth, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+\APACrefbtitle {{Pan Docs}.} {{Pan Docs}.}
+\newblock
+\APAChowpublished {\url{http://bgb.bircd.org/pandocs.htm}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Marc Davis}%
+}{%
+{Marc Davis}%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+marc}
+\APACinsertmetastar {%
+marc}%
+\begin{APACrefauthors}%
+{Marc Davis}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\APACrefbtitle {{I will compose 8 bit music for your video game or other
+  projects}.} {{I will compose 8 bit music for your video game or other
+  projects}.}
+\newblock
+\APAChowpublished
+  {\url{https://es.fiverr.com/marc_davs/compose-8-bit-music-for-your-video-game-or-other-projects?context_referrer=search_gigs&source=main_banner&ref_ctx_id=185d161a-e2f0-4ebf-b235-bc4c14845747&pckg_id=1&pos=3}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Marc Rawer}%
+}{%
+{Marc Rawer}%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+cpudocs}
+\APACinsertmetastar {%
+cpudocs}%
+\begin{APACrefauthors}%
+{Marc Rawer}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+\APACrefbtitle {{Game Boy CPU Manual}.} {{Game Boy CPU Manual}.}
+\newblock
+\APAChowpublished {\url{http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nintendo%
+}{%
+Nintendo%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+ninty}
+\APACinsertmetastar {%
+ninty}%
+\begin{APACrefauthors}%
+Nintendo.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+\APACrefbtitle {{Manual de Programación para Game Boy}.} {{Manual de
+  Programación para Game Boy}.}
+\newblock
+\APAChowpublished
+  {\url{http://index-of.es/Varios-2/Game%20Boy%20Programming%20Manual.pdf}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{nitro2k01}%
+}{%
+{nitro2k01}%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+gbwiki}
+\APACinsertmetastar {%
+gbwiki}%
+\begin{APACrefauthors}%
+{nitro2k01}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {{Game Boy Development Wiki}.} {{Game Boy Development Wiki}.}
+\newblock
+\APAChowpublished {\url{https://gbdev.gg8.se/wiki/articles/Main_Page}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Pret}%
+}{%
+{Pret}%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+pokediss}
+\APACinsertmetastar {%
+pokediss}%
+\begin{APACrefauthors}%
+{Pret}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {{Pokémon Red/Blue Dissassembly Code}.} {{Pokémon Red/Blue
+  Dissassembly Code}.}
+\newblock
+\APAChowpublished {\url{https://github.com/pret/pokered}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Randy Mongenel}%
+}{%
+{Randy Mongenel}%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+amshool}
+\APACinsertmetastar {%
+amshool}%
+\begin{APACrefauthors}%
+{Randy Mongenel}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+\APACrefbtitle {{Duo’s GameBoy ASMSchool}.} {{Duo’s GameBoy ASMSchool}.}
+\newblock
+\APAChowpublished {\url{http://gameboy.mongenel.com/index.html#}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia}%
+}{%
+{Wikipedia}%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+wikizoa}
+\APACinsertmetastar {%
+wikizoa}%
+\begin{APACrefauthors}%
+{Wikipedia}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+\APACrefbtitle {{The Legend Of Zelda: Oracle Of Seasons y Oracle Of Ages}.}
+  {{The Legend Of Zelda: Oracle Of Seasons y Oracle Of Ages}.}
+\newblock
+\APAChowpublished
+  {\url{https://es.wikipedia.org/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons_y_Oracle_of_Ages}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia}%
+}{%
+{Wikipedia}%
+}{%
+{\protect \APACyear {2008}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+wikipmdr}
+\APACinsertmetastar {%
+wikipmdr}%
+\begin{APACrefauthors}%
+{Wikipedia}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {{Pokémon Mundo Misterioso: Equipo de Rescate Rojo/Azul}.}
+  {{Pokémon Mundo Misterioso: Equipo de Rescate Rojo/Azul}.}
+\newblock
+\APAChowpublished
+  {\url{https://es.wikipedia.org/wiki/Pok%C3%A9mon_Mundo_Misterioso:_Equipo_de_Rescate_Azul_y_Equipo_de_Rescate_Rojo}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia}%
+}{%
+{Wikipedia}%
+}{%
+{\protect \APACyear {2008}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+wikipra}
+\APACinsertmetastar {%
+wikipra}%
+\begin{APACrefauthors}%
+{Wikipedia}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {{Pokémon Rojo/Azul}.} {{Pokémon Rojo/Azul}.}
+\newblock
+\APAChowpublished
+  {\url{https://es.wikipedia.org/wiki/Pok%C3%A9mon_rojo_y_Pok%C3%A9mon_azul}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Wikipedia}%
+}{%
+{Wikipedia}%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+wikigbf}
+\APACinsertmetastar {%
+wikigbf}%
+\begin{APACrefauthors}%
+{Wikipedia}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+\APACrefbtitle {{Game Boy Family}.} {{Game Boy Family}.}
+\newblock
+\APAChowpublished {\url{https://en.wikipedia.org/wiki/Game_Boy_family}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Zalo}%
+}{%
+{Zalo}%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+gbsound}
+\APACinsertmetastar {%
+gbsound}%
+\begin{APACrefauthors}%
+{Zalo}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {{GB Sound Sample Generator}.} {{GB Sound Sample Generator}.}
+\newblock
+\APAChowpublished {\url{https://github.com/Zal0/GBSoundDemo}}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
